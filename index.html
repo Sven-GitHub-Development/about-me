@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sven Weiss Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../about-me/static/Sven\ Abi.jpg');
+  min-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About me</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Sven Weiss</b></h1>
+    <p>Bachelor Student | Business Management</p>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="../about-me/static/Abi MuS.jpg" style="width:100%">
+      </div>
+      <div class="w3-half">
+        <img src="../about-me/static/Sardinien MuS.jpg" style="width:100%;">
+        <img src="../about-me/static/Sardinien2 MuS.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About me</h2>
+    <hr class="w3-opacity">
+    <p>Hi there.<br>
+      My name is Sven Dennis Weiss, I am a 19 year old bachelor student at the Campus M21 University in Munich.<br>
+      Currently, I am studying business management with a focus on mobility and the automotive industry.<br>
+      As you can see from my portfolio, I am happily taken and enjoying every free time with my girlfriend.<br>
+      Apart from that, I love good coffee and enjoy listening to music.<br>
+      Furthermore, I am a dependable person who is great at time management. <br>
+      I am always energetic and eager to learn new skills and also have experience in working as a part of a team and individually.
+    </p>
+    <h3 class="w3-padding-16">My Skills</h3>
+
+    <!-- General Skills -->
+
+    <h4 class="w3-padding-16"><b>General Skills</b></h4>
+    <p class="w3-wide">Business Management</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:60%">60%</div>
+    </div>
+    <p class="w3-wide">IT Knowledge</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:70%">70%</div>
+    </div>
+    <p class="w3-wide">Data Privacy</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div><br><br>
+
+    <!-- Language Skills -->
+
+    <h4 class="w3-padding-16"><b>Language Skills</b></h4>
+    <p class="w3-wide">German</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:100%">100%</div>
+    </div>
+    <p class="w3-wide">English</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Italian</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:40%">40%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1</span><br>
+        Semester
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1</span><br>
+        Completed Internships
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">50+</span><br>
+        Meetings
+      </div>
+    </div>
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i><b>Location:</b> Munich, Germany</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i><b>Phone:</b> +49 15142831430</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i><b>Email:</b> sven_dennis_weiss@hotmail.de</p>
+      <p><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"></i><b>LinkedIn:</b> Sven Weiss</p>
+  <!-- End Contact Section -->
+  </div>  
+<br><br>
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <p><i class="fa-solid fa-message-plus fa-fw w3-xxlarge w3-margin-right"></i>Feel free to contact me for an internship, a working student or other questions.<br>Thank you for visiting my Portfolio.</p>
+  <!-- End footer -->
+  </footer>
+    <!-- END PAGE CONTENT -->
+</div>
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
